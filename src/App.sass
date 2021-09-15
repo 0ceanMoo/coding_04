@@ -1,0 +1,19 @@
+@import "/node_modules/destyle.css"
+
+@media screen and (min-width: 835px)
+  br.--pc
+    display: none
+
+*
+  font-family: Helvetica Neue, Arial, Hiragino Sans, Meiryo, sans-serif
+
+@mixin btn($bgcolor: #FFF, $color: #333)
+  background: $bgcolor
+  color: $color
+  border: 1px solid $color
+  padding: 1rem 3rem
+  font-size: .875rem
+  &:hover
+    background: $color
+    color: $bgcolor
+    border: 1px solid $bgcolor
