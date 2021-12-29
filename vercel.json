@@ -6,6 +6,6 @@
     }
   ],
   "routes": [
-    { "src": "/.*", "public": "index.html" }
+    { "src": "/.*", "build": "index.html" }
   ]
 }
