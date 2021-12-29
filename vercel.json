@@ -6,6 +6,6 @@
     }
   ],
   "routes": [
-    { "src": "/.*", "build": "index.html" }
+    { "src": "/.*", "dest": "app.js" }
   ]
 }
